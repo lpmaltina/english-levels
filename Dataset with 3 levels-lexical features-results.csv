@@ -1,0 +1,19 @@
+,F1 macro (validation),Best params,Accuracy (test),F1 macro (test)
+lr1,0.8301,"{'lr1__C': 1, 'selector__percentile': 10}",0.8359,0.8352
+lr2,0.8235,"{'lr2__C': 10, 'selector__percentile': 10}",0.8292,0.8283
+linear_svc,0.8211,"{'linear_svc__C': 1, 'selector__percentile': 10}",0.8266,0.8254
+tree,0.6774,"{'selector__percentile': 1, 'tree__max_depth': 10, 'tree__min_samples_leaf': 10}",0.6991,0.6992
+adaboost,0.8059,"{'adaboost__base_estimator': DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=1, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=42, splitter='best'), 'selector__percentile': 1}",0.8025,0.8041
+rand_for,0.7943,"{'rand_for__max_depth': 15, 'rand_for__min_samples_leaf': 5, 'selector__percentile': 10}",0.7965,0.794
+extra_trees,0.8083,"{'extra_trees__max_depth': None, 'extra_trees__min_samples_leaf': 5, 'selector__percentile': 10}",0.8005,0.7984
+lgbm,0.8278,"{'lgbm__colsample_bytree': 0.25, 'lgbm__min_split_gain': 0.5, 'lgbm__num_leaves': 31, 'selector__percentile': 10}",0.8272,0.8273
+logistic_at,0.8611,"{'logistic_at__alpha': 1, 'selector__percentile': 100}",0.8592,0.8602
+logistic_it,0.8609,"{'logistic_it__alpha': 1, 'selector__percentile': 100}",0.8599,0.8608
+lad,0.8025,"{'lad__C': 0.1, 'selector__percentile': 10}",0.8132,0.8127
+ordinal_ridge,0.8097,"{'ordinal_ridge__alpha': 10, 'selector__percentile': 100}",0.8072,0.8097
+logistic_se,0.8608,"{'logistic_se__alpha': 1, 'selector__percentile': 100}",0.8592,0.8602
